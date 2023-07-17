@@ -1,0 +1,36 @@
+{
+  "name": "@rax-materials/scaffolds-app-ts",
+  "author": "rax",
+  "description": "Rax 无线跨端应用工程，使用 TypeScript。",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "rax-app start --port 3335",
+    "build": "rax-app build",
+    "eslint": "eslint --ext .js,.jsx,.tsx,.ts ./",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\"",
+    "prettier": "prettier **/* --write",
+    "lint": "npm run eslint && npm run stylelint"
+  },
+  "dependencies": {
+    "rax": "^1.1.0",
+    "rax-document": "^0.1.0",
+    "rax-image": "^2.0.0",
+    "rax-link": "^1.0.1",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0"
+  },
+  "devDependencies": {
+    "@iceworks/spec": "^1.0.0",
+    "@types/rax": "^1.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.0.0",
+    "postcss": "^8.4.26",
+    "prettier": "^2.1.2",
+    "rax-app": "^3.8.7",
+    "stylelint": "^13.7.2",
+    "tailwindcss": "^3.3.3",
+    "weapp-tailwindcss": "^2.6.0"
+  },
+  "private": true,
+  "originTemplate": "@rax-materials/scaffolds-app-ts"
+}
